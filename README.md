@@ -2,7 +2,7 @@ Building the docs
 -----------------
 
 ```
-bundle exec middleman build --clean
+bundle exec middleman build --build-dir=docs --clean
 ```
 
 Getting Started with Slate
