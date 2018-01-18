@@ -313,6 +313,8 @@ gene <- httr::GET("http://localhost:5000/api/gene/homolog/HEXB") %>%
 curl http://localhost:5000/api/gene/homolog/HEXB
 ```
 
+Gene names from other species can be searched using this endpoint to identify orthologs in _C. elegans_. 
+
 > The above commands returns JSON structured like this:
 
 ```json
@@ -351,4 +353,8 @@ Fetch a list of all strains.
 Parameter | Description
 --------- |  -----------
 query |  This is the name of a homolog in another species (not C. elegans)
+
+# Variants
+
+
 
